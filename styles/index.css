@@ -62,7 +62,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .navbar a {
   color: #fff;
   padding: 10px 20px;
-  margin: 0 5px;
+  /* margin: 0 5px; */
 }
 
 .navbar a:hover {
@@ -199,5 +199,29 @@ input[type="number"]::-webkit-outer-spin-button {
   .navbar {
     flex-direction: column;
     height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .flex-grid .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .teams img {
+    width: 70%;
   }
 }
