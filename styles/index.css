@@ -198,6 +198,26 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-right: 25px;
 }
 
+.posts {
+  padding: 50px 30px;
+}
+
+.posts .meta {
+  margin-bottom: 30px;
+}
+.posts img {
+  width: 300px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+}
+
+.posts h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
 /* Mobile */
 
 @media (max-width: 768px) {
@@ -229,6 +249,6 @@ input[type="number"]::-webkit-outer-spin-button {
   .teams img {
     width: 70%;
   }
-
-  /* Blog */
 }
+
+/* Blog */
